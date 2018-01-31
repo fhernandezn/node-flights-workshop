@@ -12,3 +12,8 @@
 # How to run
 
 - `$ node index.js`
+
+# Considerations
+
+- dates should be in the format `AAAA-MM-DD`
+- IATA codes should be in upper case
