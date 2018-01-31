@@ -2,7 +2,7 @@
 
 # Requirements
 
-- node.js >= 7.5.0
+- node.js >= 6.11.2
 - npm
 
 # Install dependencies
