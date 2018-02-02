@@ -18,7 +18,7 @@ function endCounter() {
   // strip the ms
   timeDiff /= 1000;
 
-  // get seconds 
+  // get seconds
   const seconds = Math.round(timeDiff);
   console.log(`${seconds} seconds`);
 
@@ -30,7 +30,7 @@ reader.ask('Start date?', 'startDate', {})
         return reader.ask('End date?', 'endData', data);
     })
     .then((data) => {
-        return reader.ask('From?', 'from', data);
+        return reader.ask('From?', 'from', data);;
     })
     .then((data) => {
         return reader.ask('To?', 'to', data);
@@ -44,7 +44,7 @@ reader.ask('Start date?', 'startDate', {})
     .then((data) => {
         const dates = datesGenerator(data.startDate, data.endData, Number(data.days));
         startCounter();
-        return finder(dates, data.people, data.from, data.to)
+        return finder(dates, data.people, data.from.toUpperCase(), data.to.toUpperCase())
     })
     .then((best10Flights) => {
         console.table(best10Flights);
