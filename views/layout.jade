@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='stylesheet', href='vendor/foundation/css/foundation.css')
+    link(rel='stylesheet', href='vendor/font-awesome/css/font-awesome.css')
+    link(rel='stylesheet', href='css/component.css')
+    link(rel='stylesheet', href='vendor/foundation-datepicker/css/foundation-datepicker.css')
+    script(src='vendor/handlebars/handlebars.js')
+  body.nice-bg
+    div.main-wrapper
+      h1.t-c Cowcations
+      block content
+    script(src="vendor/jquery/dist/jquery.js")
+    script(src="js/classie.js")
+    script(src="js/snap.svg-min.js")
+    script(src="js/svgLoader.js")    
+    script(src="vendor/foundation-datepicker/js/foundation-datepicker.js")
+    script(src="js/index.js")

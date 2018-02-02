@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.nice-bg {
+  background-color: #4fc3f7;
+}
+.main-wrapper {
+  padding: 30px;
+}
+.t-c {
+  text-align: center;
+}
+.button.expanded {
+  width: 100%;
+}
+body label,
+body h1 {
+  color: #fff;
+}
+body input[type="text"] {
+  border: none;
+}

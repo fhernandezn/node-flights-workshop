@@ -1,0 +1,21 @@
+{
+  "name": "cownations",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/fhernandezn/node-flights-workshop",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "foundation": "^5.5.3",
+    "foundation-datepicker": "^1.5.6",
+    "handlebars": "^4.0.11"
+  }
+}
