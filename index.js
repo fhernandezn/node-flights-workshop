@@ -1,9 +1,9 @@
 // add .table function to console
 require('console.table');
 
-const reader = require('./reader');
-const datesGenerator = require('./dates-generator');
-const finder = require('./finder');
+const reader = require('./core/reader');
+const datesGenerator = require('./core/dates-generator');
+const finder = require('./core/finder');
 
 let startTime, endTime;
 
